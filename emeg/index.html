@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMK JOYOREJO 75</title>
+    <style>
+        body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Mengatur agar logo dan judul berada di kolom */
+}
+
+.logo img {
+    margin-bottom: 3px; /* Jarak antara logo dan judul */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Mengatur agar menu berada di tengah */
+    flex-wrap: wrap; /* Memungkinkan menu untuk membungkus jika terlalu banyak */
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#home {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#about {
+    background-color: #e0e0e0;
+}
+
+#contact {
+    background-color: #4CAF50;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #4CAF50;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%; /* Memastikan form tidak lebih lebar dari layar */
+    margin: 0 auto;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #e0e0e0;}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="/sour/img/tre.png" alt="Logo Sekolah XYZ" width="100"> <!-- Ganti dengan logo Anda -->
+            </div>
+            <h1>WELCOME TO CLASS XI BDP 1</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="https://firmnasyah.github.io/index/">Siswa-Siswi</a></li>
+                <li><a href="/sour/galery/index.html">Galery</a></li>
+                <li><a href="/sour/organisasi/index.html">Organisasi</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section">
+        <h2>Beranda</h2>
+        <p>Kami adalah bagian dari Smk Soyorejo putat nutug kami memiliki murid kurang lebih 30 murid dengan gander perempuan 10 orang laki-laki 20 orang</p>
+    </section>
+
+    <section id="about" class="section">
+        <h2>Tentang Kami</h2>
+        <p>Kelas 11 BDP 1 di SMK Joyorejo adalah salah satu kelas yang mencerminkan kerapian dan semangat belajar. 
+            Meja dan kursi di kelas ini selalu tertata rapi, mencerminkan sikap disiplin para siswanya. 
+            Dinding kelas dihiasi dengan karya kreatif dan motivasi yang membuat suasana belajar semakin nyaman.</p>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Beri Masukan</h2>
+        <form id="contactForm">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="message">Pesan:</label>
+            <textarea id="message" required></textarea>
+            <button type="submit">Kirim</button>
+        </form>
+        <div id="responseMessage"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Muhmmad firmansyah. Semua hak dilindungi.</p>
+    </footer>
+
+    <script src="https://drive.google.com/uc?export=download&id=1bEbZwyA_h1v3c9eyI5rEC8-brMaVCGJU"></script>
+</body>
+</html>
